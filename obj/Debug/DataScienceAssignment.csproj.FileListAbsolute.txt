@@ -1,0 +1,6 @@
+D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\bin\Debug\DataScienceAssignment.exe.config
+D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\obj\Debug\DataScienceAssignment.csprojResolveAssemblyReference.cache
+D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\obj\Debug\DataScienceAssignment.exe
+D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\obj\Debug\DataScienceAssignment.pdb
+D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\bin\Debug\DataScienceAssignment.exe
+D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\bin\Debug\DataScienceAssignment.pdb
