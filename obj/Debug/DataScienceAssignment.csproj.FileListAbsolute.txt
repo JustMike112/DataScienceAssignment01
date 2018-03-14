@@ -4,3 +4,10 @@ D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataSci
 D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\obj\Debug\DataScienceAssignment.pdb
 D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\bin\Debug\DataScienceAssignment.exe
 D:\School\Jaar 4\Periode 3\Data Science\Assignment\DataScienceAssignment\DataScienceAssignment\bin\Debug\DataScienceAssignment.pdb
+D:\Code\DataScienceAssignment01\bin\Debug\DataScienceAssignment.exe.config
+D:\Code\DataScienceAssignment01\bin\Debug\DataScienceAssignment.exe
+D:\Code\DataScienceAssignment01\bin\Debug\DataScienceAssignment.pdb
+D:\Code\DataScienceAssignment01\obj\Debug\DataScienceAssignment.csprojResolveAssemblyReference.cache
+D:\Code\DataScienceAssignment01\obj\Debug\DataScienceAssignment.csproj.CoreCompileInputs.cache
+D:\Code\DataScienceAssignment01\obj\Debug\DataScienceAssignment.exe
+D:\Code\DataScienceAssignment01\obj\Debug\DataScienceAssignment.pdb

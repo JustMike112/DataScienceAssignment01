@@ -11,24 +11,8 @@ namespace DataScienceAssignment
     {
         public Dictionary<int, double> nearestNeighbours = new Dictionary<int, double>();
 
-        public NearestNeighbours(Dictionary<int, Dictionary<int, double>> ratings, int userId, string similarityOption, int maxNeighbours, double threshold)
+        public NearestNeighbours(Dictionary<int, Dictionary<int, double>> ratings, int userId, ISimilarity similarityFunction, int maxNeighbours, double threshold)
         {
-            ISimilarity similarityFunction;
-
-            switch (similarityOption)
-            {
-                case "pearson":
-                    similarityFunction = new Pearson();
-                    break;
-                case "euclidean":
-                    similarityFunction = new Euclidean();
-                    break;
-                case "cosine":
-                    similarityFunction = new Cosine();
-                    break;
-                default:
-                    throw new Exception("Not a supported similarity option");
-            }
 
             // loop over the users in the dictionary
             foreach (var user in ratings)
@@ -37,12 +21,11 @@ namespace DataScienceAssignment
                 if (user.Key != userId)
                 {
                     Tuple<Vector, Vector> commonRatings;
-
-                    if (similarityOption != "cosine") { 
+                    
+                    if (similarityFunction.GetType() != typeof(Cosine))
                         commonRatings = CommonRatings.getCommonRatings(ratings[userId], user.Value);
-                    } else {
+                    else
                         commonRatings = CommonRatings.getCosineRatings(ratings[userId], user.Value);
-                    }
 
                     var newSimilarity = similarityFunction.getSimilarity(commonRatings.Item1, commonRatings.Item2);
                     var anotherRating = anotherRatingYesOrNo(ratings[userId], user.Value);
@@ -68,6 +51,7 @@ namespace DataScienceAssignment
                     }
                 }
             }
+
         }
 
         private bool anotherRatingYesOrNo(Dictionary<int, double> user1, Dictionary<int, double> user2)
